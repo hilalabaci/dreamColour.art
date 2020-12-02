@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/shop.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div class="header">
+        <div>
+          <a href="index.html"
+            ><img
+              class="logo"
+              src="assets/img/logo.PNG"
+              alt="logo"
+              src="index.html"
+          /></a>
+        </div>
+        <div class="header-actions">
+          <div class="header-text"><a href="login.html">Log In</a></div>
+          <div class="header-text"><a href="sign.html">Sign In</a></div>
+        </div>
+      </div>
+      <div class="header2">
+        <div class="header2-actions"><a href="index.html">HOME</a></div>
+        <div class="header2-actions"><a href="shop.html">SHOP</a></div>
+        <div class="header2-actions"><a href="about.html">ABOUT</a></div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div onclick="clickDetail()" class="productContainer">
+          <div class="productImage">
+            <img
+              onmouseover="onMouseOver(this)"
+              onmouseleave="onMouseLeave(this)"
+              name="productImage"
+              class="productImage"
+              src="assets/img/lillyColinsDrawing1.jpg"
+              alt="Lilly Colins"
+            />
+          </div>
+          <div class="productTextContainer">
+            <h3 class="productH3">Lilly Colins Drawing</h3>
+            <text class="productText"
+              >This picture has been drawn with colored pencils.</text
+            >
+          </div>
+          <div class="productPrice">£50.00</div>
+        </div>
+      </div>
+    </section>
+    <script src="assets/js/shop.js"></script>
+  </body>
+</html>
